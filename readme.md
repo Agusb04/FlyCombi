@@ -105,7 +105,7 @@ exportar_kml mapa.kml
 ---
 
 # Ejecución
-Parado en la carpeta source del proyecto:
+Parado en la carpeta principal del proyecto:
 
 ```bash
 python3 src/flycombi.py data/aeropuertos.csv data/vuelos.csv < data/entrada.txt
