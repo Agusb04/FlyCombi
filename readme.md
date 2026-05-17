@@ -1,6 +1,6 @@
-# TP3 - FlyCombi
+#  FlyCombi
 
-Trabajo práctico de grafos para modelar rutas aéreas entre aeropuertos.
+Sistema basado en grafos para modelar rutas aéreas entre aeropuertos.
 
 ---
 
@@ -14,33 +14,10 @@ Trabajo práctico de grafos para modelar rutas aéreas entre aeropuertos.
 - Exportación KML
 
 ---
-
-# Estructura
-
-```text
-tp3/
-├── flycombi.py
-├── README.md
-├── entrega.mk
-├── .gitignore
-│
-├── data/
-│   ├── aeropuertos.csv
-│   ├── vuelos.csv
-│   ├── entrada.txt
-│   └── itinerario_ejemplo.csv
-│
-├── output/
-│
-└── src/
-    ├── biblioteca.py
-    ├── grafo.py
-    └── UnionFind.py
-```
-
 ---
 
 # Complejidades
+Todas usando la implementacion de grafo.py como diccionario de diccionarios:
 
 | Funcionalidad | Algoritmo | Complejidad |
 |---|---|---|
