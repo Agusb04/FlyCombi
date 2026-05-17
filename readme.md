@@ -28,6 +28,11 @@ Todas usando la implementacion de grafo.py como diccionario de diccionarios:
 | itinerario | Topológico + Dijkstra | O(I + R + I × F log A) |
 | exportar_kml | Recorrido | O(A + F) |
 
+Siendo 
+- A = cantidad de aeropuertos (vértices del grafo)
+- F = cantidad de vuelos (aristas del grafo)
+- I = cantidad de ciudades a visitar en el itinerario
+- R = cantidad de restricciones entre ciudades
 ---
 
 # Comandos
