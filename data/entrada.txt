@@ -1,0 +1,2 @@
+camino_mas rapido,San Diego,New York
+exportar_kml prueba.kml
